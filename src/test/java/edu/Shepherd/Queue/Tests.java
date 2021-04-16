@@ -1,6 +1,5 @@
 package edu.Shepherd.Queue;
 import static org.junit.jupiter.api.Assertions.*;
-import Queue.Node;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -34,7 +33,7 @@ public class Tests {
         test.insert(example);
         assertFalse(test.isEmpty());
         Node<String> current = test.head;
-        while (current.next!=null){
+        while (current.link!=null){
             current = current.link;
         }
         assertEquals(current.data, example);
