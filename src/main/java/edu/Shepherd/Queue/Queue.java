@@ -1,14 +1,6 @@
 package edu.Shepherd.Queue;
 public class Queue<E> {
-    Node<E> head;   
-    public class Node<F>{
-        F data;
-        Node<F> link;
-        public Node(F data){
-            this.data = data;
-            link = null;
-            }
-        }  
+    Node<E> head;     
         public Queue(){
             head=null;
         }
@@ -23,10 +15,10 @@ public class Queue<E> {
                 current.link =new Node(data);
             }
         }
-        public Node<E> pop(){
+        public E pop(){
             Node<E> target = head;
             head= head.link;
-            return target;
+            return target.data;
         }
 
         public int size(){
@@ -46,8 +38,8 @@ public class Queue<E> {
             return false; 
         }
 
-        public Node<E> peek(){
-            return head;
+        public E peek(){
+            return head.data;
         }
 
     }
