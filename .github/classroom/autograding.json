@@ -3,7 +3,7 @@
     {
       "name": "Test_Constructor",
       "setup": "",
-      "run": "gradle test --tests tests.testconstructor",
+      "run": "gradle test --tests Tests.testConstructor",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "Test_Size",
       "setup": "",
-      "run": "gradle test --tests tests.testSize()",
+      "run": "gradle test --tests Tests.testSize",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "Test_Insert",
       "setup": "",
-      "run": "gradle test --tests tests.testInsert()",
+      "run": "gradle test --tests Tests.testInsert",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "Test_Peek",
       "setup": "",
-      "run": "gradle test --tests tests.testPeek()",
+      "run": "gradle test --tests Tests.testPeek",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "Test_Pop",
       "setup": "",
-      "run": "gradle test --tests tests.testPop",
+      "run": "gradle test --tests Tests.testPop",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -53,7 +53,7 @@
     {
       "name": "Test_Empty",
       "setup": "",
-      "run": "gradle test --tests tests.testIsEmpty",
+      "run": "gradle test --tests Tests.testIsEmpty",
       "input": "",
       "output": "",
       "comparison": "included",
