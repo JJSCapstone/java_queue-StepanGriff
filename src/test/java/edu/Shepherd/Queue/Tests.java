@@ -39,7 +39,7 @@ public class Tests {
         assertEquals(current.data, example);
         
     }
-
+    @Test
     public void testPeek()
     {
         int ex1= 1;
@@ -50,7 +50,7 @@ public class Tests {
         assertEquals(test.peek(), ex1);
 
     }
-
+    @Test
     public void testPop()
     {
         int testSize = 5;
@@ -64,7 +64,7 @@ public class Tests {
             assertEquals(test.pop(), i);
         }
     }
-
+    @Test
     public void testIsEmpty()
     {
         int testSize =5;
