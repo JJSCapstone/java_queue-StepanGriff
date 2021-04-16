@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Test_Constructor",
+      "setup": "",
+      "run": "gradle test --tests tests.testconstructor",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test_Size",
+      "setup": "",
+      "run": "gradle test --tests tests.testSize()",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test_Insert",
+      "setup": "",
+      "run": "gradle test --tests tests.testInsert()",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test_Peek",
+      "setup": "",
+      "run": "gradle test --tests tests.testPeek()",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test_Pop",
+      "setup": "",
+      "run": "gradle test --tests tests.testPop",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test_Empty",
+      "setup": "",
+      "run": "gradle test --tests tests.testIsEmpty",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
