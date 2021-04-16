@@ -14,13 +14,13 @@ public class Queue<E> {
         }
         public void insert(E data){
             if(head==null){
-                head= new Node<E>(data);
+                head= new Node(data);
             }  else {
                 Node<E> current =head;
                 while (current.link!=null){
                     current = current.link;
                 }
-                current.link =new Node<E>(data);
+                current.link =new Node(data);
             }
         }
         public Node<E> pop(){
