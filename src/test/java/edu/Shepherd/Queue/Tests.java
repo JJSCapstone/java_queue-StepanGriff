@@ -59,7 +59,7 @@ public class Tests {
         {
             test.insert(i);
         }
-        for (int i = testSize-1; i > 0; i++)
+        for (int i = 0; i < testSize; i++)
         {
             assertEquals(test.pop(), i);
         }
