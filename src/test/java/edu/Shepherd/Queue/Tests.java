@@ -9,7 +9,7 @@ public class Tests {
     @Test
     public void testConstructor()
     {
-        Queue test = new Queue();
+        Queue<String> test = new Queue();
         assertEquals(test.head, null);
     }
 
@@ -17,7 +17,7 @@ public class Tests {
     public void testSize()
     {
         int testSize =5;
-        Queue<Integer> test = new Queue<Integer>();
+        Queue <Integer> test = new Queue();
 
         for (int i = 0; i < testSize; i++)
         {
@@ -29,11 +29,11 @@ public class Tests {
     @Test
     public void testInsert()
     {
-        Queue<String> test = new Queue<String>();
+        Queue<String> test = new Queue();
         String example = "Justin";
         test.insert(example);
         assertFalse(test.isEmpty());
-        Queue<String> current = test.head;
+        Node<String> current = test.head;
         while (current.next!=null){
             current = current.link;
         }
@@ -45,7 +45,7 @@ public class Tests {
     {
         int ex1= 1;
         int ex2=2;
-        Queue<Integer> test = new Queue<Integer>();
+        Queue<Integer> test = new Queue();
         test.insert(ex1);
         test.insert (ex2);
         assertEquals(test.peek().data, ex1);
@@ -55,7 +55,7 @@ public class Tests {
     public void testPop()
     {
         int testSize = 5;
-        Queue<Integer> test = new Queue<Integer>();
+        Queue<Integer> test = new Queue();
         for (int i = 0; i < testSize; i++)
         {
             test.insert(i);
@@ -69,7 +69,7 @@ public class Tests {
     public void testIsEmpty()
     {
         int testSize =5;
-        Queue<Integer> test = new Queue<Integer>();
+        Queue<Integer> test = new Queue();
         assertTrue(test.isEmpty());
         for (int i = 0; i < testSize; i++)
         {
